@@ -72,18 +72,27 @@ canvas.drawLine(fromX: 0, fromY: 500, toX: 0, toY: 00)
 
 canvas.lineColor = Color.init(hue: 10, saturation: 70, brightness: 100, alpha: 100)
 
-canvas.drawLine(fromX: 0, fromY: 500, toX: 0, toY: 0)
+canvas.drawLine(fromX: 0, fromY: 500, toX: 50, toY: 0)
 
-canvas.drawLine(fromX: 0, fromY: 500, toX: 100, toY: 0)
+canvas.drawLine(fromX: 0, fromY: 500, toX: 150, toY: 0)
+
+canvas.drawLine(fromX: 0, fromY: 500, toX: 250, toY: 0)
+
+canvas.drawLine(fromX: 0, fromY: 500, toX: 350, toY: 0)
 
 canvas.drawLine(fromX: 0, fromY: 500, toX: 450, toY: 0)
 
-canvas.drawLine(fromX: 0, fromY: 500, toX: 550, toY: 500)
+canvas.drawLine(fromX: 0, fromY: 500, toX: 550, toY: 0)
 
-canvas.drawLine(fromX: 0, fromY: 500, toX: 600, toY: 300)
+canvas.drawLine(fromX: 0, fromY: 500, toX: 600, toY: 50)
 
-canvas.drawLine(fromX: 0, fromY: 500, toX: 600, toY: 100)
+canvas.drawLine(fromX: 0, fromY: 500, toX: 600, toY: 150)
 
+canvas.drawLine(fromX: 0, fromY: 500, toX: 600, toY: 250)
+
+canvas.drawLine(fromX: 0, fromY: 500, toX: 600, toY: 350)
+
+canvas.drawLine(fromX: 0, fromY: 500, toX: 600, toY: 450)
 // draw the sun (yellow)
 
 canvas.fillColor = Color.init(hue: 55, saturation: 100, brightness: 100, alpha: 100)
